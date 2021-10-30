@@ -23,6 +23,14 @@ Customer review detail is not included in analyses
 
 ***********************************
 
+***********************************
+Pricing Analyses
+Price outliers are removed from all Pricing Analyses using the Inter Quartile bounds. 
+
+For each Borough, a box plot is plotted to identify inconsistencies / correlations , at a high level , between Boroughs.
+
+To supplement this analysis, a histogram is used to overlay Borough price compared to All NYC price and understand distribution by price. 
+***********************************
 
 =======
 
