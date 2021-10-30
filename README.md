@@ -12,6 +12,17 @@ The next relationship that was observed was the difference in price by boroughs.
 After looking at the data by boroughs, we decided to see the data as a whole for NYC Airbnb's. Because most of the New York population lives in townhouses, condos, lofts, and studio apartments, we were curious to see whether the room type affected the number of reviews for these properties. A scatter plot was used to determine the correlation for each room type in Airbnb as well as a regression line to indicate the finding. We found that there was in fact, no correlation between these variables, however, the minimum nights that the hosts set for these properties do impact the number of reviews. Scatter plots and histograms were provided for this. 
 
 Lastly, heat maps for each borough was created to show the frequency of the number of reviews for each of them. Like mentioned above, this helps us see which borough is the most and least popular. In addition, a separate file was attached to determine how close subway stops are to these properties. In NYC, public transit is the most popular way of travelling around the city, therefore, one would want to be close to these options. A map was provided to show which borough could potentially be the most convenient for people traveling by leisure or because of business. By using all of this information, a statistical analysis was created between Brooklyn and Manhattan. More specifically, an independent t-test was created between the two boroughs to determine the p-value significance in price. 
+***********************************
+Data Limitations
+Dataset represents a snapshot of property listings
+- Reservation history is not included. We can not identify volume over time using a snapshot of the NYC AirBnB dataset
+- Revenue optimization strategies cannot be identified. i.e. If a property/host charges more on Friday / Saturday vs Monday-Thursday, this pricing strategy is not including in our data file.
+
+Customer review detail is not included in analyses
+![image](https://user-images.githubusercontent.com/88281736/139542870-ea55512f-fd3c-406b-9f1d-283b4d06bc13.png)
+
+***********************************
+
 
 =======
 
