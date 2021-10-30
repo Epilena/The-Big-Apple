@@ -37,4 +37,6 @@ https://www.kaggle.com/geowiz34/maps-of-nyc-airbnbs-with-python
 
 #MTA NYC Transit - updated 7/30/2021 -static data subway stop coordinate
 https://atisdata.s3.amazonaws.com/Station/Stations.csv
->>>>>>> 926e14214c27b3317056c0037c1ec579c9ca2aaa
+>>>>>>> 926e1![Slide1](https://user-images.githubusercontent.com/88807979/139542598-20db282e-377b-4a61-899e-85b17922855e.PNG)
+4214c27b3317056c0037c1ec579c9ca2aaa
+>>>>>>> 
