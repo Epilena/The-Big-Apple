@@ -21,9 +21,7 @@ Data Limitations
 Dataset represents a snapshot of property listings
 - Reservation history is not included. We can not identify volume over time using a snapshot of the NYC AirBnB dataset
 - Revenue optimization strategies cannot be identified. i.e. If a property/host charges more on Friday / Saturday vs Monday-Thursday, this pricing strategy is not including in our data file.
-
-Customer review detail is not included in analyses
-![image](https://user-images.githubusercontent.com/88281736/139542870-ea55512f-fd3c-406b-9f1d-283b4d06bc13.png)
+- Customer review detail is not included in analyses
 
 ***********************************
 
@@ -38,6 +36,14 @@ Pricing Analyses:
 
 •To supplement this analysis, a histogram is used to overlay Borough price compared to All NYC price and understand distribution by price. 
 ***********************************
+
+Number of Reviews Correlations:
+
+•Data frames were created for each room type (entire home/apt, private room, and shared room) with the corresponding pricing and number of reviews information. No correlation was seen for each of them. 
+
+•Minimum nights do have an effect on the number of reviews. The higher the minimum stay, the less amount of reviews
+************************************
+
 
 =======
 
