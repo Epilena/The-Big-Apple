@@ -12,50 +12,52 @@ The next relationship that was observed was the difference in price by boroughs.
 After looking at the data by boroughs, we decided to see the data as a whole for NYC Airbnb's. Because most of the New York population lives in townhouses, condos, lofts, and studio apartments, we were curious to see whether the room type affected the number of reviews for these properties. A scatter plot was used to determine the correlation for each room type in Airbnb as well as a regression line to indicate the finding. We found that there was in fact, no correlation between these variables, however, the minimum nights that the hosts set for these properties do impact the number of reviews. Scatter plots and histograms were provided for this. 
 
 Lastly, heat maps for each borough was created to show the frequency of the number of reviews for each of them. Like mentioned above, this helps us see which borough is the most and least popular. In addition, a separate file was attached to determine how close subway stops are to these properties. In NYC, public transit is the most popular way of travelling around the city, therefore, one would want to be close to these options. A map was provided to show which borough could potentially be the most convenient for people traveling by leisure or because of business. By using all of this information, a statistical analysis was created between Brooklyn and Manhattan. More specifically, an independent t-test was created between the two boroughs to determine the p-value significance in price. 
+
+In conclusion, we found that even though Manhattan and Brooklyn had the highest number of property listings, the Bronx, Queens and Staten Island had higher average number of reviews per property. Based on the distribution shown in the boxplots, the Bronx, Queens and Staten Island are found to be the most affordable. As far as the correlation between price and number of reviews for each room type go, we found no correlations between these variables, however, we found that once a host increased the minimum night stay to three nights, there was a drop in reviews by approximately 30%. Taking all of these factors into consideration, we recommend looking for a property that would be attractive to the short-term leisure customer.
+
 ***********************************
 Data Limitations
+-----------------------------------
 Dataset represents a snapshot of property listings
 - Reservation history is not included. We can not identify volume over time using a snapshot of the NYC AirBnB dataset
 - Revenue optimization strategies cannot be identified. i.e. If a property/host charges more on Friday / Saturday vs Monday-Thursday, this pricing strategy is not including in our data file.
-
-Customer review detail is not included in analyses
-![image](https://user-images.githubusercontent.com/88281736/139542870-ea55512f-fd3c-406b-9f1d-283b4d06bc13.png)
+- Customer review detail is not included in analyses
 
 ***********************************
 
 ***********************************
-Pricing Analyses
-Price outliers are removed from all Pricing Analyses using the Inter Quartile bounds. 
+Data Findings
+-----------------------------------
+Pricing Analyses:
 
-For each Borough, a box plot is plotted to identify inconsistencies / correlations , at a high level , between Boroughs.
+•Price outliers are removed from all Pricing Analyses using the Inter Quartile bounds. 
 
-To supplement this analysis, a histogram is used to overlay Borough price compared to All NYC price and understand distribution by price. 
+•For each Borough, a box plot is plotted to identify inconsistencies / correlations , at a high level , between Boroughs.
+
+•To supplement this analysis, a histogram is used to overlay Borough price compared to All NYC price and understand distribution by price. 
 ***********************************
+
+Number of Reviews Correlations:
+
+•Data frames were created for each room type (entire home/apt, private room, and shared room) with the corresponding pricing and number of reviews information. No correlation was seen for each of them. 
+
+•Minimum nights do have an effect on the number of reviews. The higher the minimum stay, the less amount of reviews
+************************************
+
 
 =======
 
-***********************************
-Analysis Ideas
-***********************************
-•	Box & Whisker Plot boroughs/price - AG
 
-•	“Rooms by” analysis - PM
-
-•	Pie Charts by neighborhood - CB
-
-•	Review & Price scatter plots 
-
-•	Heat map for rentals - AP
-
-
+Utilized Data Files:
+-----------------------------------
 API Links:
 https://github.com/mimouncadosch/MTA-API
 
-##Similar project to ours(our original data?)
-https://www.kaggle.com/geowiz34/maps-of-nyc-airbnbs-with-python
-
 #MTA NYC Transit - updated 7/30/2021 -static data subway stop coordinate
 https://atisdata.s3.amazonaws.com/Station/Stations.csv
+
+**************************************
+
 >>>>>>> 926e1![Slide1](https://user-images.githubusercontent.com/88807979/139542598-20db282e-377b-4a61-899e-85b17922855e.PNG)
 4214c27b3317056c0037c1ec579c9ca2aaa
 >>>>>>> 
