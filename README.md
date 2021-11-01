@@ -17,6 +17,7 @@ In conclusion, we found that even though Manhattan and Brooklyn had the highest 
 
 ***********************************
 Data Limitations
+-----------------------------------
 Dataset represents a snapshot of property listings
 - Reservation history is not included. We can not identify volume over time using a snapshot of the NYC AirBnB dataset
 - Revenue optimization strategies cannot be identified. i.e. If a property/host charges more on Friday / Saturday vs Monday-Thursday, this pricing strategy is not including in our data file.
@@ -39,6 +40,7 @@ To supplement this analysis, a histogram is used to overlay Borough price compar
 
 
 Utilized Data Files:
+-----------------------------------
 API Links:
 https://github.com/mimouncadosch/MTA-API
 
